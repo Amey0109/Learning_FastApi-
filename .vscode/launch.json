@@ -11,7 +11,7 @@
             "request": "launch",
             "module": "uvicorn",
             "args": [
-                "blogs.main:app",
+                "Events.main:app",
                 "--reload"
             ],
             "jinja": true
