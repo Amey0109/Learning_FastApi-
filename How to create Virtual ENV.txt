@@ -1,0 +1,15 @@
+We Make Virtual ENV to isolate python environment with the Python Virtual Environment
+if we run pip list directly outside virtual env we see list of python libraries installed in our pc/laptop but when we create Virtual ENV and then run pip list then it will only show pip library, the other libraries has not installed in that ENV. 
+So you can installed that libraries by executing pip install <lib name> in ENV
+
+In Command Line:
+Go to directory folder where you want to create Virtual ENV
+python -m venv <ENV_NAME>
+
+To activate Virtual ENV
+<ENV_NAME>\Scripts\activate.bat
+
+pip list  - To show the installed libraries in that ENV 
+
+To deactivate Virtual ENV
+deactivate
